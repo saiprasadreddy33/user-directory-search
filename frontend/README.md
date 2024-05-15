@@ -1,5 +1,5 @@
 
-# User Directory
+# User Directory - Front End
 
 The User Directory Frontend is a React-based application that allows users to search, filter, and view a list of users. It provides a clean and responsive interface for interacting with the user data
 
