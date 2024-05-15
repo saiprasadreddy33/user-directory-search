@@ -21,7 +21,7 @@ const Results = ({ users }) => {
             className={styles.userCard}
             onClick={() => handleUserClick(user)}
           >
-            <img src={user.picture.large} alt={`${user.name.first} ${user.name.last}`} />
+            <img src={user.picture.medium} alt={`${user.name.first} ${user.name.last}`} />
             <p>
               {user.name.first} {user.name.last}
             </p>
