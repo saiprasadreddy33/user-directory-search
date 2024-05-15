@@ -1,0 +1,45 @@
+.reset-button {
+    background-color: lch(65 14.26 27.13);
+    border: dotted;
+    color: white;
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /*margin: 0px 690px 2px 999px;*/
+    cursor: pointer;
+    justify-content:right;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  @media (max-width: 1200px) {
+    .reset-button {
+      margin: 0px 500px 0px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .reset-button {
+      margin: 0px 350px 0px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .reset-button {
+      margin: 10px auto;
+      display: block;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .reset-button {
+      margin: 10px auto;
+      width: 80%;
+    }
+  }
