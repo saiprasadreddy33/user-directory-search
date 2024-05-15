@@ -1,4 +1,4 @@
-## User Directory App - Front End
+## User Directory App
 
 # Overview
 
